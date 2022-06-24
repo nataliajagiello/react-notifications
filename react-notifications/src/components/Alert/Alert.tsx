@@ -1,4 +1,5 @@
 import React from 'react';
+import './Alert.css';
 
 type AlertProps = {
     text: string;
@@ -7,7 +8,7 @@ type AlertProps = {
 const Alert = (props: AlertProps) => {
 
   return (
-        <p>{props.text}</p>
+        <p className='alert'>{props.text}</p>
   );
 }
 
