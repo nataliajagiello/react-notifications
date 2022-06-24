@@ -1,7 +1,7 @@
 import React from 'react';
 import './Alert.css';
 
-type AlertProps = {
+export type AlertProps = {
     text: string;
 }
 

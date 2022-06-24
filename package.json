@@ -1,0 +1,20 @@
+{
+  "name": "react-notifications",
+  "version": "1.0.0",
+  "description": "npm user notifications package",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nataliajagiello/react-notifications.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nataliajagiello/react-notifications/issues"
+  },
+  "homepage": "https://github.com/nataliajagiello/react-notifications#readme"
+}
