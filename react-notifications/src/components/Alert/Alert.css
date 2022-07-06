@@ -1,5 +1,8 @@
 .alert {
     background-color: #FA3E3E;
     color: white;
-    padding: 5px;
+    padding: 15px;
+    opacity: 0.85;
+    border-radius: 5px;
+    word-break: break-all;
   }
