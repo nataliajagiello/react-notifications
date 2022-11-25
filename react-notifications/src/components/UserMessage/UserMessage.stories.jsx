@@ -1,12 +1,12 @@
 import React from "react";
-import Alert from "./Alert";
+import UserMessage from "./UserMessage";
 
 export default {
-  title: "Notifications/Alert",
-  component: Alert,
+  title: "Notifications/UserMessage",
+  component: UserMessage,
 };
 
-const Template = (args) => <Alert {...args} />;
+const Template = (args) => <UserMessage {...args} />;
 
 export const UserMsg = Template.bind({});
 UserMsg.args = {

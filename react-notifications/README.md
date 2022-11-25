@@ -13,8 +13,8 @@ $ npm install @nataliajagiello/react-notifications
 ## Usage
 
 ```js
-import {Alert} from "@nataliajagiello/react-notifications";
+import {UserMessage} from "@nataliajagiello/react-notifications";
 
-<Alert text="Uwaga alert!"/>
+<UserMessage text="Uwaga alert!"/>
 
 NPM Package that shows user notifications
