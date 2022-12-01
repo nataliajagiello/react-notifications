@@ -1,8 +1,12 @@
-.alert {
-    background-color: #FA3E3E;
-    color: white;
-    padding: 15px;
-    opacity: 0.85;
-    border-radius: 5px;
-    word-break: break-all;
-  }
+.user-alert {
+  height: 38px;
+}
+
+.user-alert > .alert {
+  margin: 0;
+  padding: 5px;
+}
+
+.user-alert > .alert > .btn-close {
+  padding: 5px;
+}

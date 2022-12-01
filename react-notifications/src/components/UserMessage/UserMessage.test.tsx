@@ -1,10 +1,20 @@
 import React from "react";
 import { render } from "@testing-library/react";
 
-import UserMessage from "./UserMessage";
+import { MessageData, MessageProps, UserMessage } from "./UserMessage";
+
+const data: MessageData = {
+  color: "success",
+  value: "Test value",
+};
+
+const props: MessageProps = {
+  message: data,
+  unSetMessage: () => {},
+};
 
 describe("UserMessage", () => {
   test("renders alert component for the suer", () => {
-    render(<UserMessage text="User Alert Msg" />);
+    render(<UserMessage {...props} />);
   });
 });

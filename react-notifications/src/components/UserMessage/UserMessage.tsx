@@ -1,13 +1,28 @@
 import React from "react";
-import "./UserMessage.css";
 import { Alert } from "reactstrap";
 
-export type AlertProps = {
-  text: string;
+export type MessageData = {
+  color: string;
+  value: string;
 };
 
-const UserMessage = ({ text }: AlertProps) => {
-  return <Alert>{text}</Alert>;
+export type MessageProps = {
+  message: MessageData;
+  unSetMessage: () => void;
 };
 
-export default UserMessage;
+const UserMessage = ({ message, unSetMessage }: MessageProps) => {
+  const onDismiss = () => {
+    unSetMessage();
+  };
+
+  return (
+    <div className="user-alert">
+      <Alert color={message.color} toggle={onDismiss}>
+        {message.value}
+      </Alert>
+    </div>
+  );
+};
+
+export { UserMessage };
